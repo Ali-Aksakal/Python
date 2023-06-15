@@ -1,0 +1,83 @@
+# Girilen kullanıcı ismine göre ekrana “Merhaba Kullanıcı” yazdıran python kodunu yazınız.
+
+isim = input(“İsim Giriniz: “)
+print(“Merhaba” + “isim”)
+
+# Klavyeden girilen bir ifadeyi ekrana 10 defa yazdıran python kodunu yazınız.
+
+metin = input(“Bir Metin Giriniz: “)
+print(“metin”*10)
+
+# Klavyeden girilen iki sayıyı toplayan ve sonucu ekranda gösteren python kodunu yazınız.
+
+sayi1 = int(input(“İlk Sayıyı Giriniz: “)
+sayi2 = int(input(“İkinci Sayıyı Giriniz: “)
+toplam = sayi1 + sayi2
+print(toplam)
+
+# Klavyeden girilen üç yazılı notunun ortalamasını bulan ekranda gösteren python kodunu yazınız.
+
+sinav1 = int(input(“1.Sınav Notunu Giriniz: “)
+sinav2 = int(input(“2.Sınav Notunu Giriniz: “)
+sinav3 = int(input(“3.Sınav Notunu Giriniz: “)
+ortalama = (Sinav1 + Sinav2 + Sinav3) //3
+print(“Not Ortalamanız: {0}’dır.”.format(ortalama))
+
+# 1 den 100 e kadar olan sayılardan aynı anda 3 ve 5 e tam bölünen sayıları alt alta yazdıran python kodunu yazınız.
+For i in range(1,100)
+	İf i % 3 ==0 and i % 5 ==0:
+	Print(i)
+
+# Klavyeden girilen sayının tek mi çift mi olduğunu yazdıran python kod örneğini yapınız.
+
+Sayi = int(input(“Sayı Giriniz: “)
+İf sayi % 2 == 0:
+	Print(“{0} Sayısı Çift Sayıdır.”.format(sayi))
+Else:
+	Print(“{0} Sayısı Tek Sayıdır.”.format(sayi))
+  
+# Klavyeden girilen sayıya kadar olan sayılardan tek sayıların toplamını ve çift sayıların toplamını ayrı ayrı bulan python kodunu yazınız.
+sayi=int(input(“Bir Sayı Giriniz: “))
+tekToplam = 0
+ciftToplam = 0
+for i in range(0,sayi):
+	if i % 2 ==0:
+		ciftToplam += i
+		print(ciftToplam)
+	else:
+		tekToplam += i
+		print(tek Toplam)
+
+# Klavyeden girilen sayının asal sayı olup olmadığını bulan python kodunu yazınız.
+sayac=0
+sayi=int(input(“Bir Sayı Giriniz: “))
+for i in range(2, sayi):
+  if sayi % i ==0:
+    sayac+=1
+    break
+if sayac != 0 :
+  print("Girilen Sayı Asal Değil")
+else:
+  print("Girilen Sayı Asal")
+
+# Klavyeden yarıçapı girilen dairenin çevresini ve alanını hesaplayan python kodunu yazınız.
+
+yariCap = float(input(“Yarı Çap: “))
+alan = yariCap * yariCap * 3.14
+cevre = 2 * yariCap * 3.14
+print(“Yarı çapı {0} olan dairenin çevresi {1} alanı {2}’dir.”.format(yariCap, cevre, alan))
+
+# Klavyeden girilen başlangıç ve bitiş sayıları arasında bulunan çift sayıların ortalamasını bulan python kodunu yazınız.
+
+sayi1 = int(input(“İlk Sayıyı Giriniz: “)
+sayi2 = int(input(“İkinci Sayıyı Giriniz: “)
+toplam = 0
+sayac = 0
+for i in range(sayi1, sayi2+1):
+if i % 2 ==0:
+toplam = toplam + i
+sayac = sayac+1
+ortalama = toplam //sayac
+print(“{0} Sayısı ile {1} sayısı arasında kalan çift sayıların ortalaması {2}’dir.”.format(sayi1,sayi2,ortalama))
+
+
